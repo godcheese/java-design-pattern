@@ -1,0 +1,9 @@
+os: linux
+jdk: oraclejdk8
+dist: trusty
+sudo: true
+group: stable
+language: java
+script:
+  - chmod +x ./scripts/travisci.build.sh
+  - ./scripts/travisci.build.sh
